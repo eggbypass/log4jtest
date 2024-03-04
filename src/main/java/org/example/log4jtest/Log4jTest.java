@@ -12,7 +12,7 @@ import org.apache.logging.log4j.Logger;
 
 import javax.servlet.*;
 import java.io.IOException;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 
 
 public class Log4jTest implements Servlet {
@@ -20,7 +20,7 @@ public class Log4jTest implements Servlet {
     private static final Logger logger = LogManager.getLogger(Log4jTest.class);
 
     @Override
-    public void init(ServletConfig servletConfig) throws ServletException {
+    public void init(ServletConfig servletConfig) {
 
     }
 
